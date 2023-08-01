@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.board-container {
+  margin: auto;
+}
+
+.cell {
+  font-size: 1.5em;
+  width: 2em;
+  height: 2em;
+}
+
+.modal {
+  font-family: 'VT323', ;
+  font-size: 8em;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+  max-width: 40rem;
+  background: linear-gradient(135deg, hsl(300, 40%, 20%), hsl(300, 40%, 5%));
+  border-radius: 1.5rem;
+  display: none
+}
+
+.msg {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.cell img {
+  height: 30px;
+}
+.title{
+  width: 20%;
+}
